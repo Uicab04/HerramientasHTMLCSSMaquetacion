@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+   
+    <link rel="stylesheet" type="text/css" href="includes/01_texto/estilos2.css">
+    
+    <link rel="stylesheet" type="text/css" href="includes/03_fondo/estilos3.css">
+    <link rel="stylesheet" type="text/css" href="includes/04_bordes/estilosb.css">
+    <link rel="stylesheet" type="text/css" href="includes/05_sombras/estilosc.css">
+    <link rel="stylesheet" type="text/css" href="includes/06_gradientes/estilosaa.css">
+    <link rel="stylesheet" type="text/css" href="includes/07_filtros/estilos7.css">
+    <link rel="stylesheet" type="text/css" href="includes/02_tamano/estilosa.css">
+    <script>
+        function abrirPagina(url) {
+            $("#contenido").load(url);
+        }
+    </script>
+</head>
+
+<body>
+    <nav id="menu_navegacion">
+        <ul>
+            <li><a href="../../../actividad_01/index.html" class="active">INICIO</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/01_texto/index.html')">EJEMPLO 1</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/02_tamano/index.html')">EJEMPLO 2</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/03_fondo/index.html')">EJEMPLO 3</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/04_bordes/index.html')">EJEMPLO 4</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/05_sombras/index.html')">EJEMPLO 5</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/06_gradientes/index.html')">EJEMPLO 6</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/07_filtros/index.html')">EJEMPLO 7</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/08_transformaciones/index.html')">EJEMPLO 8</a></li>
+        </ul>
+    </nav>
+    <section id="contenido">
+        <div id="fondo">
+            <img src="../../images/logo_itse.png" />
+        </div>
+    </section>
+    <footer id="pie_pagina">
+       
+        <h5>* Victor Manuel Uicab Nahuat, Jazmin Eb, Citlaly Pat *</h5>
+    </footer>
+
+    <script src="js/jquery-3.3.1.js"></script>
+</body>
+
+</html>

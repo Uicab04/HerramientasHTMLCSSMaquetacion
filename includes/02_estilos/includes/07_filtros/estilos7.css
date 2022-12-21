@@ -1,0 +1,61 @@
+div {
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+}
+
+figcaption {
+	font: bold 20px Verdana, sans-serif;
+}
+
+#filtro-01 img {
+	filter: blur(3px);
+}
+
+#filtro-02 img {
+	/*filter: grayscale(1);*/
+	filter: grayscale(100%);
+}
+
+#filtro-03 img {
+	filter: drop-shadow(10px 10px 5px #909090);
+}
+
+#filtro-04 img {
+	/*filter: sepia(0.75);*/
+	filter: sepia(75%);
+}
+
+#filtro-05 img {
+	/*filter: brightness(5);*/
+	filter: brightness(150%);
+}
+
+#filtro-06 img {
+	/*filter: contrast(5);*/
+	filter: contrast(150%);
+}
+
+#filtro-07 img {
+	filter: hue-rotate(90deg);
+}
+
+#filtro-08 img {
+	/*filter: invert(1);*/
+	filter: invert(100%);
+}
+
+#filtro-09 img {
+	/*filter: saturate(5);*/
+	filter: saturate(50%);
+}
+
+#filtro-10 img {
+	/*filter: opacity(0.5);*/
+	filter: opacity(50%);
+}

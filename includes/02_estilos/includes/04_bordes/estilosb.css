@@ -1,0 +1,93 @@
+div {
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+}
+
+.texto {
+	font: bold 26px Verdana, sans-serif;
+}
+
+#borde-01 {
+	/*border-top-width: 2px;
+	border-left-width: 2px;
+	border-right-width: 2px; 
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #000000;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;*/
+
+	/*border-top: 2px solid #000000;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-bottom: 2px solid #000000;*/
+
+	/*border-width: 2px;
+	border-style: solid;
+	border-color: #000000;*/
+
+	border: 2px solid #000000;
+}
+
+#borde-02 {
+	/*border-width: 5px;
+	border-style: double;
+	border-color: #000000;*/
+	border: 5px double #000000;
+}
+
+#borde-03 {
+	/*border-width: 5px;
+	border-style: dashed;
+	border-color: #CCCCCC;*/
+	border: 5px dashed #CCCCCC;
+}
+
+#borde-04 {
+	/*border-width: 5px;
+	border-style: dotted;
+	border-color: #CCCCCC;*/
+	border: 5px dotted #CCCCCC;
+}
+
+#borde-05 {
+	border: 2px solid;
+	border-radius: 20px;
+}
+
+#borde-06 {
+	border: 2px solid;
+	border-radius: 20px 10px 30px 50px;
+}
+
+#borde-07 {
+	border: 2px solid;
+	border-radius: 20px / 10px;
+}
+
+#borde-08 {
+	border: 1px solid #999999;
+	/*outline-width: 2px;
+	outline-style: dashed;
+	outline-color: #000000;*/
+	outline: 2px dashed #000000;
+	outline-offset: 15px;
+}
+
+#borde-09 {
+	border: 32px solid;
+	border-image-source: url("diamante.png");
+	border-image-slice: 32;
+	border-image-repeat: stretch;
+	/*border-image: url("diamante.png") 35 stretch;*/
+}
+
+#borde-10 {
+	border: 16px solid;
+	border-image: url("diamante.png") 32 round;
+}

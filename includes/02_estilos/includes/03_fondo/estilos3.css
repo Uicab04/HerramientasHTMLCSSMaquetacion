@@ -1,0 +1,55 @@
+div {
+	margin: 30px;
+	text-align: center;
+	border: 1px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.texto {
+	font: bold 26px Verdana, sans-serif;
+}
+
+#fondo-01 {
+	padding: 15px;
+	background-color: #CCCCCC;
+}
+
+#fondo-02 {
+	height: 100px;
+	/*background-image: url("ladrillos.jpg");*/
+	/*background-image: url("ladrillos.jpg");
+	background-repeat: repeat;*/
+	background: url("ladrillos.jpg") repeat;
+	color: #FFFFFF;
+}
+
+#fondo-03 {
+	height: 200px;
+	background: url("ladrillos.jpg") repeat-x;
+}
+
+#fondo-04 {
+	height: 300px;
+	background: url("ladrillos.jpg") repeat-y;
+}
+
+#fondo-05 {
+	height: 100px;
+	/*background-color: #CCCCCC;
+	background-image: url("ladrillos.jpg");
+	background-repeat: no-repeat;*/
+	background: #CCCCCC url("ladrillos.jpg") no-repeat;
+}
+
+#fondo-06 {
+	height: 100px;
+	background: url("ladrillos.jpg");
+}
+
+#fondo-06 span {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #FFFFFF;
+	padding: 20px 50px;
+}

@@ -1,0 +1,46 @@
+div {
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+}
+
+figcaption {
+	font: bold 20px Verdana, sans-serif;
+}
+
+#transformacion-01 img {
+	transform: scale(1.25, 1.25);
+}
+
+#transformacion-02 img {
+	transform: scale3d(1.25, 1.25, 1.5);
+}
+
+#transformacion-03 img {
+	transform: rotate(90deg);
+}
+
+#transformacion-04 img {
+	transform: rotate3d(1, 2.0, 3.0, 45deg);
+}
+
+#transformacion-05 img {
+	transform: skew(30deg, 10deg);
+}
+
+#transformacion-06 img {
+	transform: perspective(20px);
+}
+
+#transformacion-07 img {
+	transform: translate(30px, -30px);
+}
+
+#transformacion-08 img {
+	transform: translate3d(12px, 50%, 3em);
+}

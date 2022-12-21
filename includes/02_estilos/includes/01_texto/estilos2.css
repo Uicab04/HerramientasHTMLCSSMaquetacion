@@ -1,0 +1,41 @@
+#titulo {
+	/*font-family: Verdana, sans-serif;
+	font-size: 26px;
+	font-style: italic;
+	font-weight: bold;*/
+	/*letter-spacing: 5px;
+	word-spacing: 10px;*/
+	/*font: bold italic 26px Verdana, sans-serif;*/
+	font: bold italic 35px Pristina, Verdana, sans-serif;
+}
+
+#descripcion {
+	text-indent: 30px;
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+a:link {
+	font-size: 13pt;
+}
+
+a:active {
+	font-weight: bold;
+	cursor: progress;
+}
+
+a:hover {
+	font-weight: bold;
+	color: rgb(0, 0, 153);
+	text-decoration: none;
+}
+
+a:visited {
+	color: #C0C0C0;
+	text-decoration: none;
+}
+
+@font-face {
+    font-family: "Pristina";
+    src: url("pristina.ttf") format("truetype");
+}

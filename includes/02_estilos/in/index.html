@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejemplo de P�gina Web</title>
+    <style type="text/css">
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #menu_navegacion {
+            background: #C0C0C0;
+            width: 220px;
+            height: calc(100vh - 50px);
+            margin: 0px;
+            padding: 0px;
+            float: left;
+        }
+
+        #menu_navegacion ul {
+            background-color: #1B396A;
+            list-style-type: none;
+            width: 218px;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            border: 1px solid #132030;
+        }
+
+        #menu_navegacion li {
+            border-bottom: 1px solid #132030;
+        }
+
+        #menu_navegacion li a {
+            display: block;
+            font-family: Roboto, Arial;
+            font-size: 11pt;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 15px 20px;
+        }
+
+        #menu_navegacion li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        #contenido {
+            width: 800px;
+            height: calc(100vh - 40px - 50px);
+            background: #FFFFFF;
+            float: right;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            padding: 20px 30px;
+        }
+
+        #pie_pagina {
+            width: 100%;
+            height: 50px;
+            background: #0B231E;
+            clear: both;
+        }
+
+        #pie_pagina h5 {
+            font-family: Arial;
+            font-size: 15pt;
+            font-weight: bold;
+            color: #FFF;
+            text-align: center;
+            line-height: 1;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        #pie_pagina h6 {
+            font-family: Arial;
+            font-size: 10pt;
+            font-weight: bold;
+            color: #FFF;
+            text-align: center;
+            line-height: 1;
+            padding: 10px;
+            margin: 0px;
+        }
+    </style>
+    <script>
+        function abrirPagina(url) {
+            $("#contenido").load(url);
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="includes/01_texto/estilos2.css">
+    
+    <link rel="stylesheet" type="text/css" href="includes/03_fondo/estilos3.css">
+    <link rel="stylesheet" type="text/css" href="includes/04_bordes/estilosb.css">
+    <link rel="stylesheet" type="text/css" href="includes/05_sombras/estilosc.css">
+    <link rel="stylesheet" type="text/css" href="includes/06_gradientes/estilosaa.css">
+    <link rel="stylesheet" type="text/css" href="includes/07_filtros/estilos7.css">
+
+
+</head>
+
+<body>
+    <nav id="menu_navegacion">
+        <ul>
+            <li><a href="../../index.html" class="active">INICIO</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/01_texto/index.html')">EJEMPLO 1</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/02_tamano/index.html')">EJEMPLO 2</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/03_fondo/index.html')">EJEMPLO 3</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/04_bordes/index.html')">EJEMPLO 4</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/05_sombras/index.html')">EJEMPLO 5</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/06_gradientes/index.html')">EJEMPLO 6</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/07_filtros/index.html')">EJEMPLO 7</a></li>
+        </ul>
+    </nav>
+
+    <section id="contenido">
+        <div id="fondo">
+            <img src="../../images/logo_itse.png"/>
+        </div>
+    </section>
+
+    <footer id="pie_pagina">
+        <h5>* Victor Manuel Uicab Nahuat, Jazmin Eb, Citlaly Pat *</h5>
+    </footer>
+    <script src="js/jquery-3.3.1.js"></script>
+</body>
+
+</html>

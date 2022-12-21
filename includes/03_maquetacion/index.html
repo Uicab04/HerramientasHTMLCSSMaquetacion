@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Maquetación de Páginas Web</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script>
+        function abrirPagina(url) {
+            $("#contenido").load(url);
+        }
+    </script>
+</head>
+
+<body>
+    <nav id="menu_navegacion">
+        <ul>
+            <li><a href="../../index.html" class="active">INICIO</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/ejemplo_01.html')">EJEMPLO 1</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/ejemplo_02.html')">EJEMPLO 2</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/ejemplo_03.html')">EJEMPLO 3</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/ejemplo_04.html')">EJEMPLO 4</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/ejemplo_05.html')">EJEMPLO 5</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/ejemplo_06.html')">EJEMPLO 6</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/ejemplo_07.html')">EJEMPLO 7</a></li>
+            <li><a href="javaScript:void(0);" onclick="abrirPagina('includes/ejemplo_08.html')">EJEMPLO 8</a></li>
+        </ul>
+    </nav>
+    <!-- se senter de mara orizontal o vertica -->
+    <section id="contenido">
+        <di id="fondo">
+            <img src="../../images/logo_itse.png"/>
+        </di>
+    </section>
+    <footer id="pie_pagina">
+        <h5>* Victor Manuel Uicab Nahuat, Jazmin Eb, Citlali Pat *</h5>
+    </footer>
+    <script src="js/jquery-3.3.1.js"></script>
+</body>
+
+</html>
